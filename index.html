@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eneseken.com</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
@@ -11,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Signika:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kalam&family=Signika:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -62,9 +64,9 @@
       </div>
     </div>
      <div class="container px-4 py-5" id="featured-3">
-      <h2 class="pb-2 border-bottom" id="d">Eğitim & Öz Gelecek & Öz Geçmiş</h2>
+      <div class="yukarii"><h2 class="pb-2 border-bottom" id="d">Eğitim & Öz Gelecek & Öz Geçmiş</h2></div>
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="feature col">
+        <div class="feature col" id="oranti">
           <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
             <img src="eğitim.png">
         </div>
@@ -76,14 +78,14 @@
             </ul>  
           </p>
       </div>
-        <div class="feature col">
+        <div class="feature col" id="oranti">
           <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
             <img src="hedef.png">
           </div>
           <h3 class="fs-2 text-body-emphasis">Öz Gelecek</h3>
           <p>Hedefim Yazılım alanında kendimi daha çok geliştirip uluslararası yazılım şirketlerinde çalışmak...</p>
           </div>
-        <div class="feature col">
+        <div class="feature col" id="oranti">
           <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
             <img src="cv.png">
           </div>
@@ -92,16 +94,25 @@
         </div>
       </div>
     </div>
-     <div>
-       <h1 class="metin" id="c">Deneyimler</h1>
-       </div>
-     <div>
-       <div class="containerr">
-        <div class="roww">
-            <div class="blockk">
-              <h2>Yazılım Dilleri</h2>
+      <div class="container px-4 py-5" id="featured-3">
+        <div class="yukariii"><h2 class="pb-2 border-bottom" id="c">Deneyimler</h2></div>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+           <div class="feature col" id="oranti">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="sql.png">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Veri Tabanı Dilleri</h3>
+            <p>MySQL &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp   ★★★</p>
+                <p>Ms SQL &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp     ★★★ </p>
+                <p>Oracle &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    ★★</p>
+            </div>
+            <div class="feature col" id="oranti">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="pythonn.png">
+            </div>
+              <h3 class="fs-2 text-body-emphasis">Yazılım Dilleri</h3>
               <p>Java  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  ★★</p>
-              <p>Maps API  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  ★★</p>
+              <p>Maps API  &nbsp&nbsp&nbsp&nbsp&nbsp ★★</p>
               <p>ASP  &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp★★</p>
               <p>HTML/CSS &nbsp ★★★★</p>
               <p>Arama Motoru Optimizasyonu (SEO) &nbsp★★★</p>
@@ -112,66 +123,81 @@
               <p>C#  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp    ★★★  </p>
               <p>Wordpress  &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp★★★★</p>
               <p>Flutter  &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp★★</p>
-                <img src="pythonn.png" alt="Resim 1">
-        </div>
-            <div class="blockk">
-              <h2>Veri Tabanı Dilleri</h2>
-                <p>MySQL &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp   ★★★</p>
-                <p>Ms SQL &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp     ★★★ </p>
-                <p>Oracle &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    ★★</p>
-                <img src="sql.png" alt="Resim 2">
+          </div>
+          <div class="feature col" id="oranti">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="microsoft.png">
             </div>
-          <div class="blockk">
-              <h2>Bilgisayar Bilgisi</h2>
-                <p>Microsoft Word &nbsp★★★★</p>
-                <p>Microsoft Excel &nbsp★★★★</p>
-                <p>OBS/Camtasia &nbsp★★★★</p>
-                <p>Adobe Photoshop &nbsp★★★</p>
-                <p>Adobe AE &nbsp&nbsp ★★★</p>
-              <img src="microsoft.png" alt="Resim 3">
+            <h3 class="fs-2 text-body-emphasis">Bilgisayar Bilgisi</h3>
+            <p>Microsoft Word &nbsp★★★★</p>
+            <p>Microsoft Excel &nbsp★★★★</p>
+            <p>OBS/Camtasia &nbsp★★★★</p>
+            <p>Adobe Photoshop &nbsp★★★</p>
+            <p>Adobe AE &nbsp&nbsp ★★★</p>
+          </div>
+        </div>
+      </div>
+        <div class="album py-5 bg-body-tertiary">
+          <div class="yukarii"><h2 class="pb-2 border-bottom" id="a">Projeler</h2></div>
+        <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top"  width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="1.jpg" class="card-img-top"/><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <div class="card-body">
+                  <h4 class="ortala">Yaptığım Site - benimrotam.com</h4>
+                  <p class="card-text">Benim yaptığım projelerden bir tanesi benimrotam.com web sitesi. Domain i ve Hosting i tamamı bana aittir. Kendimi geliştirmek amacıyla yapmıştım ve öğrendiğim bir çok deneyim oldu...</p>
+                </div>
+              </div>
             </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top"  width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="2.jpg" class="card-img-top"/><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <div class="card-body">
+                  <h4 class="ortala">benimrotam.com - Sitesinin Farklı Bölümleri</h4>
+                  <p class="card-text">Bu fotoğraf ta benimrotam.com sitesinin farklı bir bölümüdür...</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top"  width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="5.jpg" class="card-img-top"/><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <div class="card-body">
+                  <h4 class="ortala">Maps API</h4>
+                  <p class="card-text">Bu projede Maps API lerin nasıl çalıştığını öğrendim...</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top"  width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="4.jpg" class="card-img-top"/><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <div class="card-body">
+                  <h4 class="ortala">TODOLİST</h4>
+                  <p class="card-text">Bu proje bana javascript kodlarında gelişmemi sağladı...</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top"  width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="3.jpg" class="card-img-top"/><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <div class="card-body">
+                  <h4 class="ortala">Python Yüz Okuma</h4>
+                  <p class="card-text">Bu proje bazı python kütüphanelerini tanımamı sağladı...</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    <h1 class="metin" id="a">Projeler</h1>
-    </div>
-       <div class="card mb-3">
-        <img src="5.jpg" width="250px" height="280px"  class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Maps API</h5>
-          <p class="card-text">Bu projede Maps API lerin nasıl çalıştığını öğrendim...</p>
-      </div>
-     </div>
-    <div class="card mb-3">
-        <img src="1.jpg" width="250px" height="280px"  class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Yaptığım Site - benimrotam.com</h5>
-          <p class="card-text">Projelerimden bir tanesi de benimrotam.com web sitesi. Domain i ve Hosting i tamamı bana aittir. Bu siteyi Haydarpaşa Teknik Lisesi Bilişim Web Programcılığı ( lisedeyken ) kendimi geliştirmek amacıyla yapmıştım ve öğrendiğim bir çok deneyim oldu...</p>
-      </div>
-     </div>
-       <div class="card mb-3">
-        <img src="2.jpg" width="250px" height="280px"  class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">benimrotam.com - Sitesinin Farklı Bölümleri</h5>
-          <p class="card-text">Bu fotoğraf ta benimrotam.com sitesinin farklı bir bölümüdür...</p>
-        </div>
-     </div>
-     <div class="card mb-3">
-        <img src="3.jpg" width="250px" height="280px"  class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Python Yüz Okuma</h5>
-          <p class="card-text">Bu proje bazı python kütüphanelerini tanımamı sağladı...</p>
-      </div>
-     </div>
-       <div class="card mb-3">
-        <img src="4.jpg" width="250px" height="280px"  class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">TODOLİST</h5>
-          <p class="card-text">Bu proje bana javascript kodlarında gelişmemi sağladı...</p>
-        </div>
-     </div>
-       <div>
-        <h1 class="metin" id="b">Sertifikalar</h1>
-       </div>
+   <div class="ustt"><h2 class="pb-2 border-bottom" id="b">Sertifikalar</h2></div>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -214,6 +240,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+          <div class="yukarii">
         <div class="container">
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -235,5 +262,6 @@
      <a target="_blank" href="https://icons8.com/icon/64000/goal">Aim</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
      <a target="_blank" href="https://icons8.com/icon/z6faRXwXtVdE/cv">CV</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
      </div>
+    </div>
 </body>
 </html>
