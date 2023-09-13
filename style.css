@@ -1,0 +1,141 @@
+.ozellik
+{
+    margin-top: -50px;
+}
+#yuvarlak
+{
+    border-radius: 50%;
+}
+.fonts
+{
+    font-family: 'Kalam', cursive; 
+}
+.card-img-top
+{
+    width:375px;
+    height: 300px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10%;
+}
+.card-title
+{
+    text-align: center;
+}
+.card-text
+{
+    text-align: center;
+}
+#fontbaslik
+{
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+}
+.metin
+{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#carouselExampleAutoplaying
+{
+    width: 375px;
+    height: 300px;
+    align-items: center;
+    margin: auto;   
+}
+.carousel-inner
+{
+    border-radius: 10%;
+}
+.containerr 
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(58, 58, 58, 0.349);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 20%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.roww 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.blockk 
+{
+    max-width: 250px;
+    background-color: rgb(0, 137, 178);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+    width: calc(33.33% - 50px);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.blockk+.blockk 
+{
+    margin-top: 10px;
+}
+.blockk:hover 
+{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(255, 252, 252, 0.2);
+}
+body 
+{
+    font-family: Arial, sans-serif;
+}
+header 
+{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+@media (max-width: 768px) 
+{
+    header 
+    {
+        padding: 10px;
+    }
+}
+@media (max-width: 480px)
+{
+    body 
+    {
+        font-size: 14px;
+    }
+
+    header 
+    {
+        font-size: 18px;
+    }
+}
+.iconbaglanti
+{
+    text-align: center;
+    color: grey;
+    margin-top: -25px;
+}
+button
+{
+    margin-bottom: -30px;
+}
+.pb-2
+{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
