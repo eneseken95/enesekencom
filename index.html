@@ -48,7 +48,7 @@
      <div class="ozellik">
       <div class="px-4 py-5 my-5 text-center">
         <img class="d-block mx-auto mb-4" src="profilresim.jpg" id="yuvarlak" width="250px" height="250px">
-        <h1 class="fonts">Merhaba Ben Enes ! Yazılım Mühendisiyim</h1>
+        <h1><p><span id="output"></span></p></h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4" id="hakkimda">Haydarpaşa Teknik Lisesinde Bilişim Teknolojileri Web Programcılığı bölümünden mezun oldum. Lise 1 den beri yazılım ve kodlama ile uğraşıyorum. Şu an Karadeniz Teknik Üniversitesinde Yazılım Mühendisliği 1. Sınıf öğrencisiyim. Kendimi yazılım , kodlama , ingilizce ve kişisel gelişim olarak geliştirmekteyim... Yaptığım projelere projeler kısmından ve aldığım sertifikalara sertifikalar kısmından bakabilirsiniz…</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -63,6 +63,25 @@
         </div>
       </div>
     </div>
+    <script>
+      function writeWord() 
+      {
+          const word = "Merhaba Ben Enes ! Yazılım Mühendisiyim";
+          const outputElement = document.getElementById("output");
+          let currentIndex = 0;
+          function writeCharacter()
+          {
+            if (currentIndex < word.length) 
+              {
+                  outputElement.textContent += word[currentIndex];
+                  currentIndex++;
+                  setTimeout(writeCharacter, 100); // Adjust the delay between characters (in milliseconds)
+              }
+          }
+           writeCharacter();
+      }
+          writeWord();
+    </script>
      <div class="container px-4 py-5" id="featured-3">
       <div class="yukarii"><h2 class="pb-2 border-bottom" id="d">Eğitim & Öz Gelecek & Öz Geçmiş</h2></div>
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
