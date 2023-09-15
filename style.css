@@ -133,3 +133,28 @@ header
        margin-bottom: 65px;
     }
 }
+#output 
+{
+    font-size: 36px;
+    font-weight: bold;
+    color:white;
+    padding-bottom: 4px;
+    font-family: 'Kalam', cursive;
+    font-weight: 600;
+}
+#output::after 
+{
+    content: "|";
+    animation: blink 0.7s infinite;
+}
+@keyframes blink 
+{
+    0%, 100% 
+    {
+        opacity: 1;
+    }
+    50% 
+    {
+        opacity: 0;
+    }
+}
