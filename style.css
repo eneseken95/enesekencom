@@ -5,7 +5,7 @@
 #yuvarlak
 {
     border-radius: 50%;
-    border: 0.5rem solid #fff;
+    border: 0.3rem solid #fff;
 }
 .fonts
 {
@@ -95,6 +95,10 @@ header
     font-family: 'Kalam', cursive;
     margin-bottom: 15px;
     font-weight: bold;
+    background: linear-gradient(to right, #b14be4,
+    rgb(105, 173, 255), #ff89d6 ,#1d94fd , #b14be4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .card
 {
