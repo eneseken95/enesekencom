@@ -138,10 +138,12 @@ header
 {
     font-size: 36px;
     font-weight: bold;
-    color:white;
     padding-bottom: 4px;
     font-family: 'Kalam', cursive;
-    font-weight: 600;
+    background: linear-gradient(to right, #b14be4,
+    rgb(105, 173, 255), #ff89d6 ,#1d94fd , #b14be4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;    
 }
 #output::after 
 {
