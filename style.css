@@ -176,3 +176,14 @@ header
         margin-top: -45px;
     }
 }
+@media only screen and (width: 820px) 
+{
+    .card-img-top
+    {
+        width: 210px;
+        height: 190px;
+        margin: auto;
+        border-radius: 10%;
+        margin-top: -45px;
+    }
+}
