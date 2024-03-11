@@ -187,3 +187,7 @@ header
         margin-top: -45px;
     }
 }
+ a 
+{
+     text-decoration: none;
+}
