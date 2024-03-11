@@ -165,3 +165,14 @@ header
         opacity: 0;
     }
 }
+@media only screen and (width: 768px) 
+{
+    .card-img-top
+    {
+        width: 200px;
+        height: 180px;
+        margin: auto;
+        border-radius: 10%;
+        margin-top: -45px;
+    }
+}
